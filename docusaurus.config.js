@@ -89,18 +89,13 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
+          {type: 'doc', docId: 'testing', label: 'Testing', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {type: 'doc', docId: 'requirement', label: 'Requirement', position: 'left'},
+          {type: 'doc', docId: 'appendics', label: 'Appendics', position: 'left'},
+          {type: 'doc', docId: 'uidesign', label: 'UIdesign', position: 'left'},
+          {type: 'doc', docId: 'games', label: 'Games', position: 'left'},
+          {type: 'doc', docId: 'implemention', label: 'Implemention', position: 'left'},
         ],
       },
       footer: {
@@ -156,3 +151,4 @@ const config = {
 };
 
 export default config;
+
