@@ -90,12 +90,12 @@ const config = {
         },
         items: [
           {type: 'doc', docId: 'testing', label: 'Testing', position: 'left'},
-          {to: '/blog', label: 'Blog', position: 'left'},
           {type: 'doc', docId: 'requirement', label: 'Requirement', position: 'left'},
           {type: 'doc', docId: 'appendics', label: 'Appendics', position: 'left'},
           {type: 'doc', docId: 'uidesign', label: 'UIdesign', position: 'left'},
           {type: 'doc', docId: 'games', label: 'Games', position: 'left'},
           {type: 'doc', docId: 'implemention', label: 'Implemention', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
         ],
       },
       footer: {
