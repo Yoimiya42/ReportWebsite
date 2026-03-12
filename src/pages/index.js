@@ -88,15 +88,13 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
 
   return (
-    <Layout
-      title={`Home | ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+    <Layout title={`Home | ${siteConfig.title}`} description="COMP0016 project website home page.">
       <main>
         <section className={styles.projectHeroSection}>
           <div className="container">
             <div className={styles.projectHeroCard}>
-              <h1 className={styles.projectTitle}>FanShapes & FunBreathing:</h1>
-              <p className={styles.projectSubtitle}>Calming and cardio</p>
+              <h1 className={styles.projectTitle}>FunShapes and FunBreathing</h1>
+              <p className={styles.projectSubtitle}>calming and cardio</p>
             </div>
           </div>
         </section>
@@ -117,8 +115,8 @@ export default function Home() {
           <div className="container">
             <h2 className={styles.sectionTitle}>Abstract</h2>
             <p className={styles.paragraph}>
-              This section provides a concise summary of the project goals,
-              methods, and outcomes.
+              This section should include three clear paragraphs covering the problem statement,
+              your proposed solution, and the final achievement and impact.
             </p>
           </div>
         </section>
@@ -128,7 +126,7 @@ export default function Home() {
             <h2 className={styles.sectionTitle}>Introduction Video</h2>
             <div className={styles.videoWrapper}>
               <div className={styles.videoPlaceholder}>
-                Introduction video will be embedded here.
+                Embed an 8-minute project introduction video and demonstrate finished features.
               </div>
             </div>
           </div>
@@ -179,8 +177,49 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <section className={styles.section}>
+          <div className="container">
+            <h2 className={styles.sectionTitle}>Project Management</h2>
+            <div className={styles.projectManagementGrid}>
+              <div className={styles.ganttPlaceholder}>
+                Add your project Gantt chart here (Oct 20, 2025 to Mar 27, 2026).
+              </div>
+              <div className={styles.milestoneCard}>
+                <h3 className={styles.milestoneTitle}>Milestones</h3>
+                <ul className={styles.milestoneList}>
+                  <li>Requirement finalization with partner.</li>
+                  <li>Prototype and feature development iterations.</li>
+                  <li>Testing, feedback integration, and stabilization.</li>
+                  <li>Final report website and artefact delivery.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className={styles.section}>
+          <div className="container">
+            <h2 className={styles.sectionTitle}>Home Development Checklist (Part 2)</h2>
+            <ul className={styles.checklist}>
+              <li>Show project title clearly.</li>
+              <li>
+                Provide an abstract in three paragraphs: problem statement, solution, and
+                achievement/impact.
+              </li>
+              <li>Include an 8-minute introduction video with finished functionalities.</li>
+              <li>
+                Introduce development team members with photos where possible, plus name,
+                email, and role/main contribution.
+              </li>
+              <li>
+                Include project management evidence, including a readable Gantt chart (Oct 20,
+                2025 to Mar 27, 2026).
+              </li>
+            </ul>
+          </div>
+        </section>
       </main>
     </Layout>
   );
 }
-

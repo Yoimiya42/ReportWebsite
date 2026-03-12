@@ -191,6 +191,58 @@
   height: 17px;
 }
 
+.projectManagementGrid {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr;
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.ganttPlaceholder,
+.milestoneCard {
+  border: 1px solid rgba(130, 157, 221, 0.45);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.76);
+  box-shadow: 0 8px 18px rgba(80, 118, 203, 0.12);
+}
+
+.ganttPlaceholder {
+  min-height: 240px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 1rem;
+  border-style: dashed;
+  color: #5e73a8;
+}
+
+.milestoneCard {
+  padding: 1rem 1.1rem;
+}
+
+.milestoneTitle {
+  margin: 0 0 0.5rem;
+  font-size: 1.08rem;
+  font-weight: 800;
+}
+
+.milestoneList {
+  margin: 0;
+  padding-left: 1.2rem;
+  line-height: 1.7;
+}
+
+.checklist {
+  margin: 0;
+  padding-left: 1.35rem;
+  font-size: 1.08rem;
+  line-height: 1.85;
+}
+
+.checklist li + li {
+  margin-top: 0.45rem;
+}
+
 @supports ((-webkit-background-clip: text) or (background-clip: text)) {
   .projectTitle,
   .projectSubtitle,
@@ -231,5 +283,9 @@
   .memberCard {
     min-width: 255px;
     flex-basis: 255px;
+  }
+
+  .projectManagementGrid {
+    grid-template-columns: 1fr;
   }
 }
