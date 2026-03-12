@@ -92,6 +92,15 @@ export default function Home() {
       title={`Home | ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <main>
+        <section className={styles.projectHeroSection}>
+          <div className="container">
+            <div className={styles.projectHeroCard}>
+              <h1 className={styles.projectTitle}>FanShapes & FunBreathing:</h1>
+              <p className={styles.projectSubtitle}>Calming and cardio</p>
+            </div>
+          </div>
+        </section>
+
         <section className={styles.section}>
           <div className="container">
             <h2 className={styles.sectionTitle}>Our Partners</h2>
@@ -116,7 +125,7 @@ export default function Home() {
 
         <section className={styles.section}>
           <div className="container">
-            <h2 className={styles.sectionTitle}>Introduction Vedio</h2>
+            <h2 className={styles.sectionTitle}>Introduction Video</h2>
             <div className={styles.videoWrapper}>
               <div className={styles.videoPlaceholder}>
                 Introduction video will be embedded here.
@@ -174,3 +183,4 @@ export default function Home() {
     </Layout>
   );
 }
+
