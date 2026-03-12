@@ -91,4 +91,9 @@ The website will automatically reload whenever files are edited.
 
 Also, you’ll find a few official tutorials at here. They only take about 10 minutes to go through, and they will give you a basic idea of how to build the website.
 
+
+# Edit
+You only need to write the text using **Markdown syntax** in the corresponding Markdown files for each module under the `\docs` path.  
+Docusaurus will automatically render it.
+
 ---
