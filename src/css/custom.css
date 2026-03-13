@@ -91,3 +91,142 @@ body {
   background: rgba(16, 24, 44, 0.82);
   box-shadow: 0 8px 20px rgba(6, 11, 26, 0.38);
 }
+
+/* UI consistency guide visuals */
+.ui-size-sample {
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.ui-size-title {
+  font-size: 48px;
+}
+
+.ui-size-menu {
+  font-size: 40px;
+}
+
+.ui-size-button {
+  font-size: 32px;
+}
+
+.ui-size-body {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.ui-swatch {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.45rem;
+  border: 1px solid rgba(20, 36, 62, 0.3);
+  border-radius: 0.25rem;
+  vertical-align: -0.08rem;
+}
+
+.ui-swatch-primary,
+.ui-swatch-home {
+  background: #d9e5f7;
+}
+
+.ui-swatch-secondary-a {
+  background: #f09f4f;
+}
+
+.ui-swatch-secondary-b {
+  background: #ffffff;
+}
+
+.ui-swatch-general-btn {
+  background: #b2cceb;
+}
+
+.ui-swatch-play {
+  background: #6fcf97;
+}
+
+.ui-swatch-options {
+  background: #808080;
+}
+
+.ui-swatch-quit {
+  background: #ff746c;
+}
+
+.ui-swatch-restart {
+  background: #779ecb;
+}
+
+.ui-swatch-difficulty-yellow {
+  background: #fff3b0;
+}
+
+.ui-swatch-difficulty-maroon {
+  background: #e8a3a3;
+}
+
+.ui-btn-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 5.75rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid rgba(20, 36, 62, 0.24);
+  border-radius: 999px;
+  font-family: Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.ui-btn-play {
+  background: #6fcf97;
+  color: #2d5016;
+}
+
+.ui-btn-options {
+  background: #808080;
+  color: #ffffff;
+}
+
+.ui-btn-home {
+  background: #d9e5f7;
+  color: #1e3a5f;
+}
+
+.ui-btn-quit {
+  background: #ff746c;
+  color: #8b1e3f;
+}
+
+.ui-btn-restart {
+  background: #779ecb;
+  color: #1e3a5f;
+}
+
+[data-theme='dark'] .ui-swatch,
+[data-theme='dark'] .ui-btn-chip {
+  border-color: rgba(208, 223, 255, 0.35);
+}
+
+@media (max-width: 996px) {
+  .ui-size-title {
+    font-size: 36px;
+  }
+
+  .ui-size-menu {
+    font-size: 32px;
+  }
+
+  .ui-size-button {
+    font-size: 28px;
+  }
+
+  .ui-size-body {
+    font-size: 22px;
+  }
+}
