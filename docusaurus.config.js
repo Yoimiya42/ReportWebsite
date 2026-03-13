@@ -1,6 +1,13 @@
 // @ts-check
 import {themes as prismThemes} from 'prism-react-renderer';
 
+const navDocItem = (label, slug) => ({
+  to: `/docs/${slug}`,
+  label,
+  position: 'left',
+  activeBaseRegex: `^/docs/${slug}/?$`,
+});
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'FunShapes and FunBreathing',
@@ -67,16 +74,16 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {to: '/', label: 'Home', position: 'left'},
-          {type: 'doc', docId: 'requirements', label: 'Requirements', position: 'left'},
-          {type: 'doc', docId: 'research', label: 'Research', position: 'left'},
-          {type: 'doc', docId: 'algorithms', label: 'Algorithms', position: 'left'},
-          {type: 'doc', docId: 'ui-design', label: 'UI Design', position: 'left'},
-          {type: 'doc', docId: 'system-design', label: 'System Design', position: 'left'},
-          {type: 'doc', docId: 'implementation', label: 'Implementation', position: 'left'},
-          {type: 'doc', docId: 'testing', label: 'Testing', position: 'left'},
-          {type: 'doc', docId: 'evaluation', label: 'Evaluation', position: 'left'},
-          {type: 'doc', docId: 'appendices', label: 'Appendices', position: 'left'},
+          {to: '/', label: 'Home', position: 'left', exact: true},
+          navDocItem('Requirements', 'requirements'),
+          navDocItem('Research', 'research'),
+          navDocItem('Algorithms', 'algorithms'),
+          navDocItem('UI Design', 'ui-design'),
+          navDocItem('System Design', 'system-design'),
+          navDocItem('Implementation', 'implementation'),
+          navDocItem('Testing', 'testing'),
+          navDocItem('Evaluation', 'evaluation'),
+          navDocItem('Appendices', 'appendices'),
         ],
       },
       footer: {
