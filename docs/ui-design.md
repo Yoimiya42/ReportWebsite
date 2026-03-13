@@ -70,5 +70,47 @@ sidebar_position: 4
 - Use [Google Material Icons](https://fonts.google.com/icons) as the primary icon set.
 - Pair icon + text together for action clarity.
 
+### Suggested Action Icons
 
+| Action | Icon Suggestion | Notes |
+| --- | --- | --- |
+| Play | `▶️` (`play_arrow`) | Largest button on screen |
+| Options | `⚙️` (`settings`) | Second largest button |
+| Home | `🏠` (`home`) | Always visible at top-left |
+| Restart / Retry | `🔄` (`restart_alt`) | Use consistent location |
+| Quit | `🚪` (`logout`) | Keep visually distinct |
+
+## Buttons and Interaction Rules
+
+- Minimum touch target: `48px`-`64px` height.
+- Keep one primary action per button.
+- Ensure strong background contrast for readability.
+- Keep button color/icon mapping consistent on every page.
+- Home button should always return users to the game launcher.
+
+## Audio and Accessibility
+
+### Audio Style
+
+- Calm, quiet, and predictable.
+- Use soft and warm sound effects.
+- Do not use sharp/high-frequency sounds.
+- Audio must always be optional.
+- Never use sound to indicate failure.
+
+### Accessibility Options
+
+- Persist user preferences across sessions.
+- Toggle options:
+  - Sound on/off
+  - Animation reduction
+  - High contrast mode
+  - Voice instruction on/off
+  - Input method toggles: Motion Input, Mouse + Keyboard, Controller, Xbox Adaptive Controller
+
+### Key Interaction Safety
+
+- No timers or countdown pressure.
+- Let users choose when to finish.
+- Keep animation speed slow and stable.
 
