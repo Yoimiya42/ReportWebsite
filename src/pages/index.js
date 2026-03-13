@@ -94,7 +94,7 @@ export default function Home() {
           <div className="container">
             <div className={styles.projectHeroCard}>
               <h1 className={styles.projectTitle}>FunShapes and FunBreathing</h1>
-              <p className={styles.projectSubtitle}>calming and cardio</p>
+              <p className={styles.projectSubtitle}>Calming and Cardio</p>
             </div>
           </div>
         </section>
