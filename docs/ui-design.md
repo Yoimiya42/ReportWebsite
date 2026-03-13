@@ -5,28 +5,70 @@ sidebar_position: 4
 
 # UI Design
 
-> Complete this page if UI design work is in project scope.
 
 ## Design Principles
 
-Document principles used, such as:
+- Keep the style simple and calm, with pastel and cartoon-like visuals.
+- Use clear visual hierarchy and consistent button behavior across screens.
+- Prefer icons plus short text labels instead of long instructions.
+- Avoid stress triggers (for example: countdowns, failure sounds, warning-heavy visuals).
 
-- Simplicity
-- Consistency
-- Visibility
-- Feedback
-- Error tolerance
+## Typography
 
-## Hand-Drawn Sketches
+### Font Family
 
-Add early sketch images and explain key design decisions.
+- Primary: `Arial`
+- Fallback: `sans-serif` (if Arial is unavailable)
 
-## High-Fidelity Wireframes
+### Font Scale
 
-Provide the interactive prototype URL (for example, Figma) and describe key user flows.
+| Usage | Spec (pt) | CSS Equivalent (px) | Preview |
+| --- | --- | --- | --- |
+| Screen title | `36pt` | `48px` | <span className="ui-size-sample ui-size-title">Screen Title</span> |
+| Menu header | `30pt` | `40px` | <span className="ui-size-sample ui-size-menu">Menu Header</span> |
+| Button label | `24pt` | `32px` | <span className="ui-size-sample ui-size-button">Play</span> |
+| Body text | `18pt` | `24px` | <span className="ui-size-sample ui-size-body">Body Text</span> |
 
-## Development Checklist (From COMP0016 Part 2)
+### Title Rules
 
-- Explain UI design principles and how they were applied.
-- Include hand-drawn sketches.
-- Include online interactive high-fidelity wireframe URL.
+- Alignment: center
+- Weight: bold
+
+## Color System
+
+### Global Palette
+
+| Token | Usage | Color |
+| --- | --- | --- |
+| Primary | Home, menu, settings, dialogs | <span className="ui-swatch ui-swatch-primary"></span> `#D9E5F7` |
+| Secondary A | Accent and warm highlights | <span className="ui-swatch ui-swatch-secondary-a"></span> `#F09F4F` |
+| Secondary B | Neutral background/text contrast | <span className="ui-swatch ui-swatch-secondary-b"></span> `#FFFFFF` |
+| General UI button | Generic actions | <span className="ui-swatch ui-swatch-general-btn"></span> `#B2CCEB` |
+
+### Action Colors
+
+| Action | Color | Example |
+| --- | --- | --- |
+| Play | <span className="ui-swatch ui-swatch-play"></span> `#6FCF97` | <span className="ui-btn-chip ui-btn-play">Play</span> |
+| Options | <span className="ui-swatch ui-swatch-options"></span> `#808080` | <span className="ui-btn-chip ui-btn-options">Options</span> |
+| Home | <span className="ui-swatch ui-swatch-home"></span> `#D9E5F7` | <span className="ui-btn-chip ui-btn-home">Home</span> |
+| Quit | <span className="ui-swatch ui-swatch-quit"></span> `#FF746C` | <span className="ui-btn-chip ui-btn-quit">Quit</span> |
+| Restart / Retry | <span className="ui-swatch ui-swatch-restart"></span> `#779ECB` | <span className="ui-btn-chip ui-btn-restart">Retry</span> |
+
+### Difficulty Support Colors
+
+| Difficulty Token | Color | Text Color |
+| --- | --- | --- |
+| Yellow | <span className="ui-swatch ui-swatch-difficulty-yellow"></span> `#FFF3B0` | `#5A4A10` |
+| Maroon | <span className="ui-swatch ui-swatch-difficulty-maroon"></span> `#E8A3A3` | `#4B1010` |
+
+## Icons, Emoji, and Symbol Rules
+
+- Prefer icons over long text: stars `⭐`, badges `🎖️🏆`.
+- Use rounded iconography and rounded UI shapes.
+- Avoid visually stressful symbols in normal flow: `❌` and `⚠️`.
+- Use [Google Material Icons](https://fonts.google.com/icons) as the primary icon set.
+- Pair icon + text together for action clarity.
+
+
+

@@ -93,7 +93,7 @@ Also, you’ll find a few official tutorials at here. They only take about 10 mi
 
 
 # Edit
-You only need to write the text using **Markdown syntax** in the corresponding Markdown files for each module under the `\docs` path.  
+You only need to write the text using **Markdown syntax** in the corresponding `.md` files for each module under the `\docs` path.  
 Docusaurus will automatically render it.
 
 ---
