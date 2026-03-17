@@ -1,5 +1,6 @@
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import partners from '@site/src/data/partners';
 import teamMembers from '@site/src/data/teamMembers';
 import styles from './index.module.css';
 
@@ -103,10 +104,16 @@ export default function Home() {
           <div className="container">
             <h2 className={styles.sectionTitle}>Our Partners</h2>
             <div className={styles.partnerGrid}>
-              <img className={styles.partnerLogo} src="/img/partners/MotionInput.png" alt="MotionInput" />
-              <img className={styles.partnerLogo} src="/img/partners/UCL.png" alt="UCL" />
-              <img className={styles.partnerLogo} src="/img/partners/NAS.jpg" alt="NAS" />
-              <img className={styles.partnerLogo} src="/img/partners/IBM.png" alt="IBM" />
+              {partners.map((partner) => (
+                <img
+                  key={partner.name}
+                  className={styles.partnerLogo}
+                  src={partner.src}
+                  alt={partner.name}
+                  loading="lazy"
+                  decoding="async"
+                />
+              ))}
             </div>
           </div>
         </section>
