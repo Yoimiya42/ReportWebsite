@@ -8,7 +8,13 @@ sidebar_position: 1
 
 ## Partner Introduction and Project Background
 
-Describe your project partner, the context, and why this problem matters.
+>Describe your project partner, the context, and why this problem matters.
+
+This project is developed in collaboration with MotionInput and National Autistic Society (NAS). MotionInput provides gesture-based interaction technology, while NAS contributes domain expertise in accessibility and user needs, particularly for children with diverse cognitive and sensory profiles.
+
+Many existing solutions for autistic and disabled children rely on structured therapies or specialised equipment. While effective in controlled settings, these approaches are often costly, environment-dependent, and difficult to integrate into everyday life. In contrast, many digital tools remain overly passive, offering limited interaction and struggling to sustain long-term engagement.
+
+This project introduces a game box that reframes these functions in a more natural and engaging form. By combining motion-based interaction with a collection of simple, playful experiences, it supports both physical activity and emotional regulation. Movement-focused gameplay encourages exercise, while breathing-based interactions help children calm down and manage stress. In doing so, the system complements traditional approaches by making therapeutic benefits more accessible, continuous, and engaging in everyday contexts.
 
 ## Project Goals
 
