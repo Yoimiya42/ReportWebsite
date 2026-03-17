@@ -1,5 +1,7 @@
 ---
+id: research
 title: Research
+slug: /research
 sidebar_position: 2
 ---
 

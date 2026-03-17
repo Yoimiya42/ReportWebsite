@@ -1,5 +1,7 @@
 ---
+id: system-design
 title: System Design
+slug: /system-design
 sidebar_position: 5
 ---
 

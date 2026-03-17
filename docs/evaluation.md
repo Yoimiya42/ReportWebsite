@@ -1,5 +1,7 @@
 ---
+id: evaluation
 title: Evaluation
+slug: /evaluation
 sidebar_position: 8
 ---
 

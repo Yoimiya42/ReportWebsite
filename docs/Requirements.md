@@ -1,6 +1,7 @@
 ---
 id: requirements
 title: Requirements
+slug: /requirements
 sidebar_position: 1
 ---
 

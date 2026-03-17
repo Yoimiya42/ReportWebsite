@@ -1,5 +1,7 @@
 ---
+id: implementation
 title: Implementation
+slug: /implementation
 sidebar_position: 6
 ---
 

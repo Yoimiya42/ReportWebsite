@@ -1,5 +1,7 @@
 ---
+id: ui-design
 title: UI Design
+slug: /ui-design
 sidebar_position: 4
 ---
 
@@ -113,4 +115,3 @@ sidebar_position: 4
 - No timers or countdown pressure.
 - Let users choose when to finish.
 - Keep animation speed slow and stable.
-

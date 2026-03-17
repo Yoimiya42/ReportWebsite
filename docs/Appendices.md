@@ -1,6 +1,7 @@
 ---
 id: appendices
 title: Appendices
+slug: /appendices
 sidebar_position: 9
 ---
 

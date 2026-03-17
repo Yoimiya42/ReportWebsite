@@ -18,7 +18,7 @@ const config = {
     v4: true,
   },
 
-  url: 'http://students.cs.ucl.ac.uk',
+  url: 'https://students.cs.ucl.ac.uk',
   baseUrl: '/2025/group9/',
 
   organizationName: 'facebook',
@@ -41,18 +41,7 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },

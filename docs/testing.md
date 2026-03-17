@@ -1,5 +1,7 @@
 ---
+id: testing
 title: Testing
+slug: /testing
 sidebar_position: 7
 ---
 
