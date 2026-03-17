@@ -25,13 +25,12 @@ export default function Footer() {
       <div className={`container ${styles.container}`}>
         <div className={styles.grid}>
           <section className={styles.column}>
-            <p className={styles.eyebrow}>About</p>
+            <p className={styles.eyebrow}>ABOUT US</p>
             <h2 className={styles.title}>{siteConfig.title}</h2>
+            <p className={styles.subtitle}>Cardio and Calming</p>
             <p className={styles.description}>
-              A COMP0016 project website documenting the design, development, and evaluation of
-              FunShapes and FunBreathing for calming and cardio experiences.
+              Physical Activity and Emotional Regulation Solutions for Children with Autism and Disabilities
             </p>
-            <p className={styles.tagline}>{siteConfig.tagline}</p>
           </section>
 
           <nav className={styles.column} aria-label="Footer navigation">

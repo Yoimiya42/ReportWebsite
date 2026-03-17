@@ -141,7 +141,8 @@ export default function Home() {
 
         <section className={styles.section}>
           <div className="container">
-            <h2 className={styles.sectionTitle}>Teams</h2>
+            <h2 className={styles.sectionTitle}>Our Team</h2>
+            <p className={styles.teamCaption}>UCL Year2 2025-2026 COMP0016 Team 9</p>
             <div className={styles.memberRow}>
               {teamMembers.map((member) => {
                 const emailHref = member.email ? `mailto:${member.email}` : '';
