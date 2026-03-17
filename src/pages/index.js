@@ -92,10 +92,19 @@ export default function Home() {
     <Layout title={`Home | ${siteConfig.title}`} description="COMP0016 project website home page.">
       <main>
         <section className={styles.projectHeroSection}>
-          <div className="container">
-            <div className={styles.projectHeroCard}>
-              <h1 className={styles.projectTitle}>FunShapes and FunBreathing</h1>
-              <p className={styles.projectSubtitle}>Calming and Cardio</p>
+          <div className={`container ${styles.projectHeroContainer}`}>
+            <div className={styles.projectHeroContent}>
+              <p className={styles.projectEyebrow}>COMP0016 Team 9 Project</p>
+              <h1 className={styles.projectTitle}>
+                <span className={styles.projectTitleWarm}>FunShapes</span>
+                <span className={styles.projectAmpersand}>&amp;</span>
+                <span className={styles.projectTitleCool}>FunBreathing</span>
+              </h1>
+              <div className={styles.projectSubtitleRow}>
+                <span className={styles.projectSubtitleLine} aria-hidden="true" />
+                <p className={styles.projectSubtitle}>Cardio &amp; Calming</p>
+                <span className={styles.projectSubtitleLine} aria-hidden="true" />
+              </div>
             </div>
           </div>
         </section>
