@@ -18,8 +18,8 @@ const config = {
     v4: true,
   },
 
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/',
+  url: 'http://students.cs.ucl.ac.uk',
+  baseUrl: '/2025/group9/',
 
   organizationName: 'facebook',
   projectName: 'docusaurus',

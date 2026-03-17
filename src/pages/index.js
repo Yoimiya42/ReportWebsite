@@ -4,6 +4,11 @@ import partners from '@site/src/data/partners';
 import teamMembers from '@site/src/data/teamMembers';
 import styles from './index.module.css';
 
+function resolveAssetUrl(baseUrl, assetPath) {
+  const normalizedBaseUrl = baseUrl === '/' ? '' : baseUrl.replace(/\/$/, '');
+  return `${normalizedBaseUrl}${assetPath}`;
+}
+
 function normalizeExternalUrl(url) {
   if (!url) {
     return '';
@@ -117,7 +122,7 @@ export default function Home() {
                 <img
                   key={partner.name}
                   className={styles.partnerLogo}
-                  src={partner.src}
+                  src={resolveAssetUrl(siteConfig.baseUrl, partner.src)}
                   alt={partner.name}
                   loading="lazy"
                   decoding="async"

@@ -1,5 +1,0 @@
----
-Title: Games
----
-
-# Games
