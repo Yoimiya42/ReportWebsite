@@ -46,7 +46,7 @@ This section consolidates the current requirements for the **FunShapes and FunBr
 <div className="requirement-summary">
   <div className="requirement-summary__item">
     <strong>Project scope</strong>
-    <p>A local Windows desktop game hub for autistic children, combining a launcher, web-based menu, motion input, breathing input, and optional GenAI-supported features.</p>
+    <p>A local Windows desktop game hub, combining a launcher, menu, motion input, breathing input, and optional GenAI-supported features.</p>
   </div>
   <div className="requirement-summary__item">
     <strong>Purpose</strong>
